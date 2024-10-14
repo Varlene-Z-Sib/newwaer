@@ -1,0 +1,257 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+background: black;
+}
+
+#l_Logo {
+	width: 100%;
+	height: flex;	
+}
+
+
+.form-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 60vh;
+}
+
+.box{
+background: #fdfdfd;
+display: flex;
+flex-direction: column;
+padding: 25px 25px;
+border-radius: 20px;
+box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+			0 32px 64px-48px rgba(0,0,0,0.5);
+}
+
+.form-box{
+width: 450px;
+margin: 0px 10px;
+}
+.form-box h2 {
+font-size: 25px;
+font-weight: 600;
+padding-bottom: 10px;
+border-bottom: 1px solid #e6e6e6;
+margin-bottom: 10px;
+}
+
+.form-box form .field{
+display: flex;
+margin-bottom: 10px;
+flex-direction: column;
+}
+.form-box form.input input{
+height: 40px;
+width: 100%;
+font-size: 16px;
+padding: 0 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+outline: none;
+}
+
+.form-box form .input input{
+height: 40px;
+width: 100%;
+font-size: 16px;
+padding: 0 10px;
+border-radius: 5px;
+border: 1px solid
+#ccc;
+outline: none;
+}
+
+.button{
+height: 35px;
+background: rgba(76,68,182,0.808);
+border: 0;
+border-radius: 5px;
+color: #fff;
+font-size: 15px;
+cursor: pointer;
+transition: all .3s;
+margin-top: 10px;
+padding: 0px 10px;
+}
+
+.button:hover{
+opacity: 0.82;
+}
+
+submit{
+width: 100%;
+}
+
+#topnav img{
+	width: 80px;
+	height: 60px;
+}
+
+ #topnav{
+	 position: absolute;
+	 padding-left:10px;
+	 padding-right:30px;
+	 display: flex;
+	 flex-direction: row;
+	 padding-top: auto;
+	 padding-bottom: auto;
+ }
+
+#topLinks {
+    position: absolute;
+    width: 100%;
+    top: 110px;
+    left: auto;
+	right: auto;
+	margin: 20px;
+	color: white;
+}
+
+#topLinks li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+	font-size: 1.4	em;
+	color: white;
+	font-color: white;
+}
+
+}
+
+#banner	 {
+    width: 100%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-box1{
+height: 100px;
+background: #e1e1e1;
+border-radius: 0px;
+align-content: center;
+vertical-align: center;
+}
+
+.nav-box2{
+align-content: center;
+height: 60px;
+background: black;
+border-radius: 0px;
+}
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+	padding-left: 400px;
+}
+
+.search input[type="text"] {
+    padding: 6px;
+    margin-right: 10px;
+    border: none;
+    font-size: 17px;
+    border-radius: 4px;
+	width: 200px;
+}
+
+.search button {
+    padding: 6px 10px;
+    background: white;
+    color: green;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search button i {
+    font-size: 18px;
+}
+
+.search button:hover {
+    background: darkgreen;
+    color: white;
+}
+
+
+/* Style the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  
+}
+
+/* Style table headers */
+th {
+  background-color: transparent;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Style table rows */
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style table cells */
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+
+/* Style the image */
+td img {
+  width: 150px;
+  height: auto;
+}
+
+/* Style the "Add to Cart" button */
+td form input[type="submit"] {
+  padding: 5px 10px;
+  background-color: rgba(76,68,182,0.808);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the "Add to Cart" button on hover */
+td form input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.tablecontainer {	
+ background: black;
+ font: white;
+}
+
+.tablecontainer table td,
+.tablecontainer table th {
+        color: white;
+}
+
+._link{
+color: white;
+}
+
+#topnav a {
+        color: white;
+    }
+	
+ #topLinks a {
+    color: white;
+ }
