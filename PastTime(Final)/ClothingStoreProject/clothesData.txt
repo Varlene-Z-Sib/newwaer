@@ -1,0 +1,30 @@
+T-Shirt,Men,199.99,100,_images/Tshirt.jpg
+Jeans,Women,390.99,50, _images/Jean.jpg
+Jacket,Unisex,590.99,30, _images/Jacket.jpg
+Sneakers,Men,490.99,20, _images/Sneakers.jpg
+Hat,Accessories,140.99,150, _images/Hat.jpg
+T-Shirt, Men, 199.99, 100,
+Jeans, Women, 390.99, 50,''
+Jacket, Unisex, 590.99, 30,''
+Sneakers, Men, 490.99, 20,''
+Hat, Accessories, 140.99, 150,''
+T-Shirt, Men, 199.99, 100,''
+Jeans, Women, 390.99, 50,''
+Jacket, Unisex, 590.99, 30,''
+Sneakers, Men, 490.99, 20,''
+Hat, Accessories, 140.99, 150,''
+T-Shirt, Men, 199.99, 100,''
+Jeans, Women, 390.99, 50,''
+Jacket, Unisex, 590.99, 30,''
+Sneakers, Men, 490.99, 20,''
+Hat, Accessories, 140.99, 150,''
+T-Shirt, Men, 199.99, 100,''
+Jeans, Women, 390.99, 50,''
+Jacket, Unisex, 590.99, 30,''
+Sneakers, Men, 490.99, 20,''
+Hat, Accessories, 140.99, 150,''
+T-Shirt, women, 199.99, 100,''
+Jeans, Men, 390.99, 50,''
+Jacket, Unisex, 570.99, 30,''
+Sneakers, Women, 490.99, 20,''
+glasses, Accessories, 140.99, 150,''

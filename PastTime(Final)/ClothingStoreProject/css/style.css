@@ -1,0 +1,200 @@
+
+body{
+  background-color: black;
+}
+
+header {
+	background-color: #e1e1e1;
+}
+
+/* Center the Banner */
+.b_Logo {
+	width: 100%;
+	height: 400px;
+  margin: 0 auto;
+}
+
+/* Center the logo */
+#l_Logo {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#Logo-banner{
+	background-color: black;
+	color: black
+}
+
+		/** Form Styling **/
+.form-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 60vh;
+}
+
+.box{
+background: #fdfdfd;
+display: flex;
+flex-direction: column;
+padding: 25px 25px;
+border-radius: 20px;
+box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+			0 32px 64px-48px rgba(0,0,0,0.5);
+}
+
+.form-box{
+width: 450px;
+margin: 0px 10px;
+}
+.form-box h2 {
+font-size: 25px;
+font-weight: 600;
+padding-bottom: 10px;
+border-bottom: 1px solid #e6e6e6;
+margin-bottom: 10px;
+}
+
+.form-box form .field{
+display: flex;
+margin-bottom: 10px;
+margin-right: 20px;
+flex-direction: column;
+}
+.form-box form.input input{
+height: 40px;
+width: 100%;
+font-size: 16px;
+padding: 0 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+outline: none;
+}
+
+.form-box form .input input{
+height: 40px;
+width: 100%;
+font-size: 16px;
+padding: 0 10px;
+border-radius: 5px;
+border: 1px solid blue;
+outline: none;
+}
+
+.form-box form .button {
+height: 35px;
+background: blue;
+border: 0;
+border-radius: 5px;
+color: white;
+font-size: 15px;
+cursor: pointer;
+transition: all .3s;
+margin-top: 10px;
+padding: 0px 10px;
+}
+
+.form-box form .button:hover{
+opacity: 0.82;
+}
+
+submit{
+width: 100%;
+}	
+	
+/* Center the logo */
+#l_Logo {
+  display: block;
+  margin: 0 auto;
+}
+
+
+		/*** Nav BAr ***/					
+
+.item0{	
+    padding-left: 10px;
+	padding-right: 30%;
+	margin-left:0px;
+}
+
+.item1{	
+padding-left: 30%;
+}
+
+
+
+			/** Styling Tables  **/
+
+
+/* Style the table */
+table {
+  border-collapse: collapse;
+  width: 90%;
+  padding-left: auto;
+  padding-right: auto;
+  background-color: #f0f0f0;
+  
+}
+
+/* Style table headers */
+th {
+  background-color: inherit;
+  color: white;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Style table rows */
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style table cells */
+td {
+  background-color: inherit; \
+  color: white;
+  padding: 8px;
+  text-align: center;
+}
+
+
+/* Style the image */
+td img {
+  width: 150px;
+  height: auto;
+}
+
+/* Style the "Add to Cart" button */
+td form input[type="submit"] {
+  padding: 5px 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the "Add to Cart" button on hover */
+td form input[type="submit"]:hover {
+  background-color: #3ab6ff;
+}
+
+.tablecontainer {	
+ background: black;
+ font: white;
+}
+
+.tablecontainer table td,
+.tablecontainer table th {
+        color: white;
+		background: black;
+		vertical-align: middle;
+		text-align: center;
+}
+
+.table-container {
+	width:115%;
+	padding-left: auto;
+	padding-right: auto;
+}
